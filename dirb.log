@@ -1,0 +1,15 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.log
+START_TIME: Mon Jun 16 18:29:18 2025
+URL_BASE: https://https://edificesasainternational.com/deposit/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common
+
+-----------------
+
+
+(!) FATAL: Error opening wordlist file: /usr/share/wordlists/dirb/common
